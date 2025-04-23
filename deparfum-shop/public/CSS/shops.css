@@ -1,0 +1,67 @@
+
+/* footer{
+    position: relative;
+    top:400px;
+    height: 550px;
+} */
+.shops-info{
+    position: relative; 
+    width: 80%;  
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.shops-info .shop-text a{
+    position: relative;
+    display: block;
+    margin-left: 30%;
+    margin-bottom: 30px;
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 0.5s ease-in-out;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.shops-info .shop-text a:hover{
+        font-size: 25px;
+        transition: all 0.5s ease-in-out;
+        transform-origin: center;
+}
+
+.shops-info .shop-images{
+    position: relative;
+    display: block;
+    top: 0;
+    left: 0;
+    height: 20%;
+    width:100%;
+    margin-bottom: 30px;
+}
+.shops-info .shop-images img {
+    position: relative;
+    top: 0;
+    left: 0;
+    display:block;
+    justify-items: center;
+    width:100%;
+    height: 100%;
+    margin-bottom: 30px;
+} 
+
+
+/* .shops-info .shop-images img:hover {
+    transform: scale(1.2);
+    transition: all 0.5s ease-in-out;
+}  */
+
+
+.shops-info .shop-map{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* margin-left: 23%; */
+}

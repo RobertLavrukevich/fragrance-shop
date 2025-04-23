@@ -1,0 +1,50 @@
+.profile-container .avatar{
+    position: relative;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    top:0px;    
+}
+
+
+.profile-container{
+    position: relative;
+    width:60%;
+    height: 150px;
+    margin-left:20%;
+}
+
+.profile-container h1, .profile-container p{
+    position:relative;
+    display: block;
+    margin-left: 20%;
+}
+
+.profile-container p{
+    font-size: 25px;
+}
+
+.profile-container .logout-btn{
+    position: relative;
+    margin-left:4%;
+    width:80px;
+    height:35px;
+    border-radius: 5px;
+    background-color: black;
+    transition: all 0.5s ease-in-out;
+}
+
+.profile-container .logout-btn:hover{
+    width: 90px;
+    height: 42px;
+    transition: all 0.5s ease-in-out;
+}
+
+
+
+.profile-container .logout-btn a {
+    text-decoration: none;
+    color: white;
+}

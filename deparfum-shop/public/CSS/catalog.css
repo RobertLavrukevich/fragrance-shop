@@ -1,0 +1,260 @@
+
+body{
+    /* height: 1600px; */
+    height: 100%;
+}
+
+footer{
+    position: relative;
+    top:120px;
+}
+.all-content {
+    display: grid;
+    grid-template-columns:1fr 4fr ;
+    grid-template-rows:100%;
+    height: 100%;
+}
+
+
+.side-bar h2{
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 51px;
+}
+
+.side-bar .brand-filter, .side-bar .male-filter, .side-bar .price-filter, .side-bar .season-filter{
+    background-color: rgb(249, 249, 249);
+    margin-bottom:5px;
+    padding: 8px 0px 8px 0px;
+}
+
+
+
+.brand-filter .inner-brand ul li, .male-filter .inner-male ul li, .season-filter .inner-season ul li{
+    list-style: none;
+}
+
+
+.brand-filter .inner-brand{
+    max-height: 250px;
+    max-width: 100%;
+    padding-left: 20px;
+    overflow-y: auto;
+}
+.male-filter .inner-male, .season-filter .inner-season{
+    padding-left: 20px;
+} 
+
+.side-bar .price-filter input{
+    padding: 5px 0px 5px 10px;
+    border-radius: 5px;
+}
+#price_min{
+    margin-left: 50px;
+}
+.show-filter-products{
+    position: relative;
+    left: 25%;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 160px;
+    height: 40px;
+    background-color: transparent;
+    align-items: center;
+    border-radius: 6px;
+}
+.show-filter-products:hover{
+    background-color: rgb(249, 249, 249);;
+}
+
+.main-catalog{
+    margin:0% 0% 10% 2%;
+}
+
+
+@media screen and (max-width:1292px) and (min-width:1011px){
+    footer {
+        position: relative;
+        height: 630px;
+        top: 500px;
+    }
+}
+
+
+@media screen and (max-width:1010px) and (min-width: 752px){
+    footer {
+        position: relative;
+        height: 630px;
+        top: 900px;
+    }
+
+
+    .main-catalog{
+        margin-left: 80px;
+    }
+}
+
+@media screen and (max-width:920px) and (min-width:781px){
+    .main-catalog{
+        margin-left: 30px;
+    }
+}
+
+
+@media screen and (max-width:780px) and (min-width: 656px){
+        footer{
+        position: relative;
+        height: 630px;
+        top: 2600px;
+        width: 100%;
+        }
+
+        .main-catalog .product{
+            position: relative;
+            margin-left: 15%;
+        }
+}
+
+
+
+@media screen and (max-width:665px) and (min-width: 549px){
+    footer{
+    position: relative;
+    height: 550px;
+    top: 2600px;
+    width: 100%;
+    }
+
+    .main-catalog{
+        position: relative;
+        width:150px;
+        height: 100px;
+        margin-left: 5%;
+    }
+
+    .pagination{
+    position: relative;
+    
+    }
+
+}
+
+
+
+@media screen and (max-width:548px) and (min-width: 509px){
+    footer{
+    position: relative;
+    height: 270px;
+    top: 2600px;
+    width: 100%;
+    }
+
+    .main-catalog{
+        position: relative;
+        width:150px;
+        height: 100px;
+        margin-left: 5%;
+    }
+
+    .pagination{
+    position: relative;
+    box-shadow: none;
+    
+    }
+
+}
+
+
+
+@media screen and (max-width:508px) and (min-width: 375px){
+    footer{
+    position: relative;
+    height: 270px;
+    top: 2600px;
+    width: 100%;
+    }
+
+    .main-catalog{
+        position: relative;
+        width:150px;
+        height: 100px;
+        right: 30px;
+    }
+
+    .pagination{
+    position: relative;
+    box-shadow: none;    
+    }
+
+    .side-bar{
+    position: relative;
+    right: 40px;
+    }
+     
+    .product{
+        position: relative;
+        width: 80%;
+    }
+
+    .product .product-image{
+        position: relative;
+        width: 150px;
+        height: 150px;
+    }
+    .product .product-image img{
+        position: relative;
+        width: 150px;
+        height: 150px;
+    }
+
+    .pagination{
+        position: relative;
+        margin-left: 0px;
+        right:20%;
+    }
+    .pagination .links .link{
+            position: relative;
+            width:30px;
+            height: 30px;
+            font-size: 14px;
+    }
+    
+    .pagination .button{
+        position: relative;
+        font-size: 14px;
+        width:27px;
+        height:30px;
+    }
+
+    .main-catalog .product .add-to-basket-product svg{
+        height:20px ;
+        width:20px ;
+    }
+
+    .main-catalog .product .add-to-basket-product{
+        position: absolute;
+        margin-left: 6%;
+    }
+
+
+    .all-content .side-bar .brand-filter, .all-content .side-bar .male-filter, .all-content .side-bar .brand-filter, .season-filter, .all-content .side-bar .price-filter{
+        position: relative;
+        font-size: smaller;
+    }
+
+    .all-content .side-bar h2{
+        font-size:14px;
+    }
+    .all-content .side-bar .price-filter .max-price{
+        position: relative;
+        left: 50px;
+    }
+    
+    .all-content .side-bar .show-filter-products{
+        position: relative;
+        width:120px;
+        height: 30px;
+    }
+
+}
+       
